@@ -1,0 +1,11 @@
+#!/bin/bash
+
+if command -v gnome-terminal 2>&1; then
+    gtabstart $*
+else
+    if  command -v konsole 2>&1; then
+        ktabstart $*
+    else
+        echo "Cannot find konsole or gnome-terminal, aborting!"
+    fi
+fi
