@@ -18,8 +18,8 @@ import ipaddress
 
 DEBUG = True
 PRINT = False
-IMAGE_NAME = 'netkit_base'
-DOCKER_HUB_PREFIX = "kathara/"
+IMAGE_NAME = 'quagga'
+DOCKER_HUB_PREFIX = "andreymgn/"
 LINUX_TERMINAL_TYPE = 'xterm'
 
 MAC_OS = "darwin"
