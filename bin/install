@@ -87,7 +87,7 @@ fi
 sudo chmod 644 $NETKIT_HOME/../config
 
 echo "Pulling images"
-sudo docker pull kathara/netkit_base
+sudo docker pull andreymgn/quagga
 sudo docker pull alpine
 
 if [ "$SKIP_P4" = "0" ]; then
